@@ -180,5 +180,85 @@ body{
         };
         
     };
+    .main3{
+        margin-top: 5rem;
+        .text2{
+            text-align: center;
+            text-transform: capitalize;
+            color: #925040;
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+        };
+        .cont{
+           padding: 0px 13.5rem;
+            
+            label{
+                font-family: "Orbitron", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                text-transform: capitalize;
+                margin-top : 1rem;
+                margin-bottom: 0;
+            }
+            .input{
+                width: 23rem;
+                border: 2px solid rgba(146, 80, 64, 0.575) ;
+                border-radius: 18px;
+                padding: 0 1rem;
+                background: rgba(146, 80, 64, 0.575);
+            };
+            input:focus,input:valid{
+                
+                font-size: 1rem;
+                font-weight: 500;
+                color: white;
+                border: 1px solid rgb(146, 80, 64,0.575) ;
+            };
+            textarea{
+                padding: 0 1rem;
+                border-radius: 18px;
+                width: 23rem;
+                height: 7rem;
+                background: rgba(146, 80, 64, 0.575);
+                margin: 0;
+            }
+            textarea:focus,.textarea:valid{
+                font-size: 1rem;
+                font-weight: 500;
+                color: white;
+                border: 1px solid rgb(146, 80, 64,0.575) ;
+                padding: 0;
+                overflow: auto;
+            }
+            .submit{
+                margin: 1rem 10rem;
+                font-family: "Silkscreen", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                border: #586c59;
+                border-radius: 1rem;
+                padding: 0.3rem;
+                background: #586c59;
+            };
+            .submit:hover{
+                background: #000000;
+                color: white;
+                cursor: pointer;
+            }
+            .error{
+                font-size: 16px;
+                margin: 0;
+                color: #ff0000c7;
+                font-family: cursive;
+            };
+            
+
+        }
+    };
+    ::placeholder{
+        color: #646866;
+    };
     
 }
