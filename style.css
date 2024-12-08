@@ -1,0 +1,95 @@
+html{
+    font-size: 24px;
+    scroll-behavior: smooth;
+    ::-webkit-scrollbar{
+        width: 10px;   
+    };
+    ::-webkit-scrollbar-thumb {
+        background: #586c59; 
+        border-radius: 10px;
+        transition: 1s;
+    }; 
+    ::-webkit-scrollbar{
+        scroll-behavior: smooth;
+    }
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(rgba(243, 211, 169, 0.479),rgba(3, 37, 228, 0)), url(pics/bg.jpg    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-flow{
+    margin: 1rem 3rem;
+    .header{
+        height: 25%;
+        .drop{
+            display: none;
+        }
+
+        .logo{
+            float: left;
+            
+            .img{
+                width: 45%;
+            }
+        };
+        .menu{
+            
+            float: left;
+            display: contents;
+            
+            ul{
+                display: flex;
+                gap: 2rem;
+                justify-content: flex-end;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #586c59;
+                        font-weight: bolder;
+                        text-transform: capitalize;
+                        font-family: "Oxanium", serif;
+                        font-optical-sizing: auto;
+                        font-style: oblique;
+                    }
+                }
+            }
+        };
+
+    };
+    .main{
+        .part1{
+            p{
+                font-size: 4rem;
+                font-family: "Cookie", cursive;
+                font-weight: 600;
+                font-style: normal;
+                color: #586c59;
+                text-transform: capitalize;
+                margin: 0;
+                margin-top: 10rem;
+                text-align: center;
+            }
+        };
+        .part2{
+            p{
+                font-size: 1.3rem;
+                font-family: "Funnel Display", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 600;
+                font-style: normal;
+                color: #925040;
+                margin: 0;
+                text-align: center;
+            }
+        }
+    };
+}
