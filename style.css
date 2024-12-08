@@ -392,3 +392,343 @@ footer{
         
     }
 }
+
+
+@media screen and (max-width: 1240px) {
+    .icon{
+        display:block;
+
+    }
+    .container-flow {
+        .main2 {
+            .row1 {
+                .content1 {
+                    height: 74rem;
+                }
+            }
+        };
+        .main3 {
+            .cont {
+                padding: 0px 10.5rem;
+            }
+        };
+        .main4 {
+            .logo2 {
+                padding-top: 2rem;
+                img{
+                    width: 75%;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    html{
+        font-size: 20px;
+        .icon{
+            .material-symbols-outlined{
+                margin-top: 23rem;
+                margin-left: 47rem;
+                font-size: 35px;
+            }
+            
+        };
+        .icon:hover{
+            .material-symbols-outlined {
+                margin-top: 23rem;
+                margin-left: 47rem;
+                font-size: 35px;
+            }
+        }
+
+    };
+    
+    
+}
+@media screen and (max-width: 768px){
+    html{
+        font-size: 18px;
+        .icon {
+            .material-symbols-outlined {
+                font-size: 30px;
+                margin-top: 25rem;
+                margin-left: 39rem;
+            }
+        }
+        .icon:hover{
+            .material-symbols-outlined{
+                font-size: 30px;
+                margin-top: 25rem;
+                margin-left: 39rem;
+            }
+        }
+    }
+    
+    .container-flow {
+        .header {
+            & .logo {
+                .img {
+                    width: 35%;
+                }
+            }
+        }
+        .main3 {
+            .cont {
+                padding: 0px 6.5rem;
+            }
+        }
+        .main2 {
+            padding-top: 7rem;
+            .row1 {
+                .content1 {
+                    height: 78rem;
+                }
+            }
+        }
+        .main4 {
+            img{
+                width: 25%;
+            }
+        }
+        
+    }
+    footer{
+        margin-top: 19rem;
+        font-size: 18px;
+
+    }
+
+}
+@media screen and (max-width: 425px){
+    html{
+        font-size: 14px;
+        
+    }
+    body{
+        .icon {
+            .material-symbols-outlined {
+                font-size: 20px;
+                margin-top: 34rem;
+                margin-left: 28rem;
+            }
+            }
+        
+        .icon:hover{
+            .material-symbols-outlined{
+                font-size: 20px;
+                margin-top: 34rem;
+                margin-left: 28rem;
+            }
+            
+        }
+        .container-flow {
+            .header {
+                .logo {
+                    .img {
+                        width: 20%;
+                    }
+                }
+                .menu{
+                    ul {
+                        padding-top: 1rem;
+                    }
+                }
+            }
+            .main {
+                & .part1 {
+                    p {
+                        margin-top: 5rem;
+
+                    }
+                }
+            }
+            .main3 {
+                .cont {
+                    padding: 0px 0.3rem;
+                }
+            }
+            .main2 {
+                padding-top: 7rem;
+                .row1 {
+                    .content1 {
+                        height: 112rem;
+                        .card{
+                            width: 9rem;
+                            .card-img-top {
+                                width: 11rem;
+                                height: 10rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .main4 {
+                img{
+                    width: 25%;
+                }
+            }
+            
+        }
+        footer{
+            margin-top: 28rem;
+            font-size: 12px;
+    
+        }
+    }
+
+}
+@media screen and (max-width: 375px){
+    html{
+        font-size: 12px;
+    }
+    body{
+        .icon {
+            .material-symbols-outlined {
+                font-size: 18px;
+                margin-top: 34rem;
+                margin-left: 28rem;
+            }
+            }
+        
+        .icon:hover{
+            .material-symbols-outlined{
+                font-size: 18px;
+                margin-top: 34rem;
+                margin-left: 28rem;
+            }
+            
+        }
+        .container-flow {
+            .header {
+                .logo {
+                    .img {
+                        width: 20%;
+                    }
+                }
+                .menu{
+                    ul {
+                        padding-top: 1rem;
+                    }
+                }
+            }
+            .main {
+                & .part1 {
+                    p {
+                        margin-top: 5rem;
+
+                    }
+                }
+            }
+            .main3 {
+                .cont {
+                    padding: 0px 0.3rem;
+                }
+            }
+            .main2 {
+                padding-top: 7rem;
+                .row1 {
+                    .content1 {
+                        height: 112rem;
+                        .card{
+                            width: 9rem;
+                            .card-img-top {
+                                width: 11rem;
+                                height: 10rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .main4 {
+                img{
+                    width: 25%;
+                }
+            }
+            
+        }
+        footer{
+            margin-top: 28rem;
+            font-size: 10px;
+    
+        }
+    }
+
+}
+@media screen and (max-width: 320px){
+    html{
+        font-size: 14px;
+    }
+    body{
+        .icon {
+            .material-symbols-outlined {
+                font-size: 15px;
+                margin-top: 32rem;
+                margin-left: 22rem;
+            }
+            }
+        
+        .icon:hover{
+            .material-symbols-outlined{
+                font-size: 15px;
+                margin-top: 32rem;
+                margin-left: 22rem;
+            }
+            
+        }
+        .container-flow {
+            .header {
+                .logo {
+                    .img {
+                        width: 20%;
+                    }
+                }
+                .menu{
+                    ul {
+                        padding-top: 1rem;
+                    }
+                }
+            }
+            .main {
+                & .part1 {
+                    p {
+                        margin-top: 5rem;
+
+                    }
+                }
+            }
+            .main3 {
+                .cont {
+                    padding: 0px 0.3rem;
+                }
+            }
+            .main2 {
+                padding-top: 7rem;
+                .row1 {
+                    .content1 {
+                        height: 207rem;
+                        .card{
+                            width: 17rem;
+                            .card-img-top {
+                                width: 17rem;
+                                height: 12rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .main4 {
+                img{
+                    width: 25%;
+                }
+            }
+            
+        }
+        footer{
+            margin-top: 33rem;
+            font-size: 9px;
+    
+        }
+    }
+
+}
