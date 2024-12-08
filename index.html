@@ -44,41 +44,33 @@
 
 
     <link rel="stylesheet" href="style.css">
-
-
 </head>
-
 <body>
-    <div id="top" class="icon">
-        <span id="ic" onclick="up()" class="material-symbols-outlined">
-            rocket
-        </span>
-    </div>
-    <div class="container-flow">
-        <div class="header">
-            <div class="logo" id="home">
-                <img class="img" src="pics/logo.png" alt="">
-            </div>
-            <div class="menu">
-                <ul>
-                <li><a href="#top">home</a></li>
-                <li><a href="#blossom">blossom</a></li>
-                <li><a href="#contact">contact</a></li>
-                <li><a href="#about">about</a></li>
-                </ul>
-            </div>
+    <div class="main">
+        <div id="nav" class="menu">
+            <img class="img" src="pics/logo.png" alt="">
+            <ul>
+            <li><a href="#top">home</a></li>
+            <li><a href="#blossom">blossom</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#about">about</a></li>
+            </ul>
         </div>
-
-        <div class="main">
+        <div class="main1">
             <div class="part1">
                 <p>our moments, our blooms.</p>
             </div>
-            <div class="part2">
+            <div class="part2" >
                 <p>Scrutinize the plants and pots that we sell.</p>
             </div>
         </div>
+
+        <div class="id" id="blossom">
+
+        </div>
+
         <div class="main2">
-            <div class="text1" id="blossom">
+            <div class="text1" >
                 <h2>
                     blossom
                 </h2>
@@ -214,9 +206,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" >
                         <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrdiQaKYCG0KHG6p7uQlLYQ2Nf_PjMvNKuyw&s" alt="Card image cap">
-                        <h5 class="card-title">Caladium HAMBOLDTII </h5>
+                        <h5 class="card-title" >Caladium HAMBOLDTII </h5>
                         <div class="card-body">
                             <p class="card-text">
                                 Caladium HAMBOLDTII: This Caladium variety dazzles with intricate patterns and is sure to become the centerpiece of your green haven.
@@ -229,8 +221,12 @@
             </div>
         </div>
 
+        <div class="id" id="contact">
+
+        </div>
+
         <div class="main3">
-            <div class="text2" id="contact">
+            <div class="text2" >
                 <h2>contact us</h2>
             </div>
             <div class="cont" >
@@ -241,13 +237,14 @@
                     <input class="input" type="text" placeholder="eg: abcd@gmail.com" name="email"><br>
                     <label for="">enter your message</label><br>
                     <textarea name="comment" form="usrform"></textarea>
-                    <input type="submit" value="submit" class="submit" >
+                    <input type="submit" value="submit" class="submit" id="about" >
                     
                     </form>
             </div>
         </div>
+
         <div class="main4">
-            <div id="about" class="heading">
+            <div  class="heading">
                 <h2>about us</h2>
             </div>
             <div class="logo2">
@@ -267,22 +264,19 @@
             </div>
             
         </div>
-    </div>
 
+        <footer>
+            <div class="contact">
+               <p>Copyright © 2024 Yarloon Garden Centre | Powered by <a href="https://www.linkedin.com/in/sooraj-suresh-3204162b3/">Sooraj Suresh</a></p>
+                
+            </div>
+        </footer>
     
-    <footer>
-        <div class="contact">
-           <p>Copyright © 2024 Yarloon Garden Centre | Powered by <a href="https://www.linkedin.com/in/sooraj-suresh-3204162b3/">Sooraj Suresh</a></p>
-            
-        </div>
-    </footer>
-
-
-
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
-    <script src="yarloon.js"></script>         
+    <script src="yarloon.js"></script> 
 
 </body>
 </html>
