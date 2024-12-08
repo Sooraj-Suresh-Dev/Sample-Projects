@@ -92,4 +92,93 @@ body{
             }
         }
     };
+    .main2{
+        padding-top: 6rem;
+        h2{
+            margin: 0;
+            text-transform: capitalize;
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+            color: #ff0073
+        };
+        .row1{
+            .content1{
+                flex-wrap: wrap;
+                height: 55rem;
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+                .card{
+                    transition: 1s;
+                    border-radius: 0.5rem;
+                    overflow: hidden;
+                    margin-top: 1rem;
+                    float: left;
+                    padding-top: 1rem;
+                    width: 10rem;
+                    height: 16rem;
+                    .card-img-top{
+                        width: 10rem;
+                        height: 10rem;
+                        float :left;
+                    };
+                    .card-title{
+                        padding: 0 1rem;
+                        padding-top: 1rem;
+                        text-transform: capitalize;
+                        font-size: 1rem;
+                        margin : 0;
+    
+                    };
+                    .card-body{
+                        height: 4rem;
+                        padding: 1rem 1rem;
+                        float:left;
+                    };
+                    .card-text{
+                        display: none;
+                    };
+                    
+                }
+            };
+            #card-txt{
+                padding: 0 0.7rem;
+                padding-top: 1rem;
+                text-transform: capitalize;
+                font-size: 0.9rem;
+                margin : 0;
+            }
+            .card:hover{
+                transform: scalex(1.2)scaleY(1.1);
+                height: 20rem;
+                overflow: hide;
+                z-index: 3;
+                .card-body{
+                    overflow: auto;
+                    height: 10rem;
+                    .card-title{
+                        font-size: 0.8rem;
+                    }
+                    .card-text{
+                        display: block;
+                        font-size: 0.7rem;
+                        
+                    }
+                }
+                ::-webkit-scrollbar{
+                    width: 10px;   
+                };
+                ::-webkit-scrollbar-thumb {
+                    background: #925040; 
+                    border-radius: 10px;
+                    transition: 1s;
+                }
+                
+            };
+            
+        };
+        
+    };
+    
 }
