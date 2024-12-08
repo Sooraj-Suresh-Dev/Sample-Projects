@@ -333,3 +333,62 @@ footer{
         padding-top:1rem;
     };
 }
+.icon{
+    height: 1rem; 
+    text-align: end;
+    padding-right: 5rem;
+    z-index: 20;
+    .material-symbols-outlined {
+        font-family: 'Material Symbols Outlined';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 45px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        --webkit-font-feature-settings: 'liga';
+        -webkit-font-smoothing: antialiased;
+        background: #925040;
+        color: white;
+        border-radius: 3rem;
+        padding: 3px 3px;
+        z-index: 10;
+        position: fixed;
+        margin-top: 21rem;
+        margin-left: 53rem;
+        cursor: pointer;
+        display: block;
+        
+        
+    }
+}
+.icon:hover{
+    .material-symbols-outlined {
+        font-family: 'Material Symbols Outlined';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 45px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        --webkit-font-feature-settings: 'liga';
+        -webkit-font-smoothing: antialiased;
+        background: white;
+        color: #925040;
+        border-radius: 3rem;
+        padding: 3px 3px;
+        z-index: 20;
+        position: fixed;
+        margin-top: 21rem;
+        margin-left: 53rem;
+        cursor: pointer;
+        display: block;
+        
+    }
+}
