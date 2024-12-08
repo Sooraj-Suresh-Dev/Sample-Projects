@@ -314,3 +314,22 @@ body{
     
     
 }
+footer{
+    background: #f1c392;
+    margin-top: 18rem;
+    height: 10%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: #000000;
+    };
+    a:hover{
+        text-decoration: none;
+        color: #ff8400;
+    }
+    .contact{
+        padding-top:1rem;
+    };
+}
