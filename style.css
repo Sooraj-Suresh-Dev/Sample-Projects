@@ -562,7 +562,8 @@ body{
         }
         .menu{
             ul {
-                padding-top: 1rem;
+               
+                padding: 1.1rem 0rem;
                 li{
                     a{
                         font-size: 0.8rem;
